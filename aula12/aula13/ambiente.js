@@ -6,6 +6,7 @@ do  {
 } while (c <= 10)
 */ 
 
+<<<<<<< HEAD
 
 var c = 1
 while (c <= 10) {
@@ -13,6 +14,21 @@ while (c <= 10) {
     c++
 }
   
+=======
+/*
+var c = 1
+while (c <= 10) {
+    console.log('Passo ' + c) // ESTRUTURA MAIS UTILIZADA E SEGURA
+    c++
+}
+*/
+
+    
+
+for (var c = 1; c <= 10; c++) {
+    console.log('Passo' + c) // ESTRUTURA MAIS SIMPLES 
+}  
+>>>>>>> bf91539 (att)
 
 
 /*
